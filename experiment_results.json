@@ -1,0 +1,41 @@
+{
+    "rounds": [
+        {
+            "round": 1,
+            "predicted_waiting_time": 0.0,
+            "actual_waiting_time": 0.001326700032223016,
+            "selected_task": null,
+            "expected_task_time": 0.0,
+            "actual_task_time": 0.0,
+            "utilized_waiting_time": 0.0,
+            "unused_waiting_time": 0.001326700032223016,
+            "utilization_percentage": 0.0
+        },
+        {
+            "round": 2,
+            "predicted_waiting_time": 0.001061360025778413,
+            "actual_waiting_time": 0.004473400011193007,
+            "selected_task": "Update Log",
+            "expected_task_time": 0.0004915666650049388,
+            "actual_task_time": 0.0013789000222459435,
+            "utilized_waiting_time": 0.0013789000222459435,
+            "unused_waiting_time": 0.0030944999889470637,
+            "utilization_percentage": 30.824429266235143
+        },
+        {
+            "round": 3,
+            "predicted_waiting_time": 0.0023200400173664093,
+            "actual_waiting_time": 0.0015502999885939062,
+            "selected_task": "Update Status",
+            "expected_task_time": 1.9133323803544044e-05,
+            "actual_task_time": 6.799999391660094e-05,
+            "utilized_waiting_time": 6.799999391660094e-05,
+            "unused_waiting_time": 0.0014822999946773052,
+            "utilization_percentage": 4.38624746287173
+        }
+    ],
+    "total_waiting_time": 0.007350400032009929,
+    "total_utilized_time": 0.0014469000161625445,
+    "total_unused_time": 0.005903500015847385,
+    "overall_utilization_percentage": 19.684643146787987
+}
