@@ -71,7 +71,7 @@ data = load_results()
 # HEADER
 # ============================================================
 
-st.title("🌐 WaitTime")
+st.title("🌐 WaitTime Dashboard")
 
 st.subheader(
     "Utilizing Waiting Time in Half-Duplex Communication"
