@@ -37,8 +37,8 @@ def load_results():
         with open(RESULT_FILE, "r") as file:
             return json.load(file)
 
-    except Exception:
-        return None
+    except (json.JSONDecodeError, OSError):
+    return None
 
 
 def to_number(value, default=0.0):
