@@ -142,6 +142,17 @@ if data is None:
 
     st.stop()
 
+# ============================================================
+# EXPORT RESULTS
+# ============================================================
+
+st.download_button(
+    label="⬇️ Download Experiment Results",
+    data=json.dumps(data, indent=4),
+    file_name="experiment_results.json",
+    mime="application/json"
+)
+
 
 # ============================================================
 # EXTRACT DATA
