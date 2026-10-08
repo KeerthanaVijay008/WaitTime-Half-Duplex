@@ -64,3 +64,4 @@ interactive dashboard.
         ┌───────────────────────┐
         │ Streamlit Dashboard   │
         └───────────────────────┘
+Uniuesness of our project:Utilizing the wait time
